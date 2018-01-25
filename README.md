@@ -9,7 +9,8 @@ use GuzzleHttp\Exception\TransferException;
 use TorrentTv\PartnerApi\ApiException;
 use TorrentTv\PartnerApi\PartnerApi;
 
-$api = new PartnerApi('{YOUR_USERNAME}', '{YOUR_KEY}');
+$api = new PartnerApi('{dizainer-msk@yandex.ru
+}', '{d05f26998414a85214645b81ab3fef4a}');
 try {
     $usersInfo = $api->getAllUsersInfo();
     print_r($usersInfo);
